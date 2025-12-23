@@ -1,11 +1,24 @@
-import { Box } from "@mui/material";
+import { Box, styled } from "@mui/material";
 import { PenLine } from "lucide-react";
+
+const PenIconContainer = styled(Box)({
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  gap: 2,
+});
 
 export function PenIcon() {
   return (
-    <Box className="pen-icon-container">
+    <PenIconContainer>
       <PenLine size={16} />
-      <Box className="pen-icon-line" />
-    </Box>
+      <span
+        style={{
+          width: 12,
+          height: 1,
+          backgroundColor: "currentColor",
+        }}
+      />
+    </PenIconContainer>
   );
 }

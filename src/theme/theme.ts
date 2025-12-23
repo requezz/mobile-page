@@ -97,17 +97,9 @@ export const theme = createTheme({
           "&::after": {
             display: "none",
           },
-          "&.amount-input-value": {
-            flex: 1,
-            minWidth: 0,
-          },
         },
         input: {
-          textAlign: "center",
           padding: 0,
-          minWidth: 100,
-          width: "auto",
-          maxWidth: 150,
         },
       },
     },
@@ -139,12 +131,6 @@ export const theme = createTheme({
           "& .MuiSvgIcon-root": {
             fontSize: 18,
             color: colors.iconDefault,
-          },
-          "&.transparent": {
-            backgroundColor: "transparent",
-            "&:hover": {
-              backgroundColor: "transparent",
-            },
           },
         },
         sizeSmall: {
@@ -180,9 +166,6 @@ export const theme = createTheme({
       styleOverrides: {
         root: {
           borderRadius: 8,
-          "&.requisite-card": {
-            padding: "0 16px 16px",
-          },
         },
         outlined: {
           borderColor: colors.border,

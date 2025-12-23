@@ -8,7 +8,6 @@ export {
 export { EditableInput } from "./EditableInput";
 export { PaymentMethodTabs } from "./PaymentMethodTabs";
 export { PenIcon } from "./PenIcon";
-export { RadioOption } from "./RadioOption";
 export { RequisiteCard } from "./RequisiteCard";
 export { SaveRequisitesCheckbox } from "./SaveRequisitesCheckbox";
 export { Section } from "./Section";

@@ -5,18 +5,14 @@ export const REQUISITE_TYPES = {
   CONTRACT: "contract",
 } as const;
 
-export const REQUISITE_LABELS = {
-  CARD: "Номер карты",
-  CONTRACT: "Номер договора",
-} as const;
-
-export const REQUISITE_PLACEHOLDERS = {
-  CARD: "Номер карты",
-  CONTRACT: "Номер договора",
-} as const;
-
-export const TEXT_ALIGN = {
-  LEFT: "left",
-  RIGHT: "right",
+export const REQUISITE_CONFIG = {
+  CARD: {
+    label: "Номер карты",
+    placeholder: "Номер карты",
+  },
+  CONTRACT: {
+    label: "Номер договора",
+    placeholder: "Номер договора",
+  },
 } as const;
 
