@@ -10,6 +10,5 @@ yarn-error.log*
 *.swp
 *.swo
 *~
-.vscode/
 
 .vercel
