@@ -40,8 +40,8 @@ export function RadioIcon(props: SvgIconProps) {
         cy="12"
         r="9"
         fill="none"
-        stroke={colors.divider}
-        strokeWidth="3"
+        stroke={colors.primaryMain}
+        strokeWidth="2"
       />
     </SvgIcon>
   );

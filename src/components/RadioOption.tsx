@@ -15,7 +15,7 @@ export function RadioOption({
   onChange,
 }: RadioOptionProps) {
   return (
-    <Stack direction="row" gap={1} alignItems="center">
+    <Stack direction="row" alignItems="center">
       <Radio
         checked={checked}
         onChange={onChange}
@@ -28,4 +28,3 @@ export function RadioOption({
     </Stack>
   );
 }
-

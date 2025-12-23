@@ -74,7 +74,7 @@ export const theme = createTheme({
         {
           props: { variant: "outlined" },
           style: {
-            borderColor: colors.border,
+            borderColor: "transparent",
             color: colors.textPrimary,
             backgroundColor: colors.backgroundPaper,
             "&:hover": {
@@ -181,7 +181,7 @@ export const theme = createTheme({
         root: {
           borderRadius: 8,
           "&.requisite-card": {
-            padding: "12px 16px",
+            padding: "0 16px 16px",
           },
         },
         outlined: {

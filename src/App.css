@@ -19,7 +19,7 @@
   height: 60px;
   background-color: var(--color-background-paper);
   border-radius: 12px;
-  padding: 8px;
+  padding: 4px 8px;
   margin-top: 8px;
   display: flex;
   flex-direction: column;
