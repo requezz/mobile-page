@@ -11,7 +11,6 @@ const EditableInputContainer = styled(Box)(({ theme }) => ({
   border: `1px solid ${colors.border}`,
   width: "100%",
   maxWidth: 390,
-  minHeight: 70,
   [theme.breakpoints.down("sm")]: {
     maxWidth: "100%",
   },
