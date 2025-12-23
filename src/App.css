@@ -95,6 +95,11 @@
   margin-top: 2px;
 }
 
+.amount-input-value {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 600px) {
   .editable-input-container {
     width: 100%;
